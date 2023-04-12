@@ -1,6 +1,6 @@
 <?php
   /**
-   *Template for displaying comments
+   * Template for displaying comments
   **/
   
   // Get only the approved comments
@@ -20,4 +20,15 @@
   } else {
     echo 'No comments found.';
   }
+  
+  /** 
+   * Place this snippet below where ever you want to render the comments
+   * Then remove this snippet from this file because it is intended to be used elsewhere, NOT from within this template   
+   * Uncomment the snippet below when ready to use
+  **/
+  
+  // If comments are open or we have at least one comment, load up the comment template.
+  // if ( comments_open() || get_comments_number() ) :
+  //   comments_template();
+  // endif;
 ?>
