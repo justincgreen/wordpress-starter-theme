@@ -9,4 +9,6 @@ This starter theme is intended to do ONE thing: **Streamline** your dev process 
 ```sh
 style.css         # -> Theme meta information
 index.php         # -> Theme main template
+home.php          # -> Theme home page template
+comments.php      # -> Theme comments template
 ```
