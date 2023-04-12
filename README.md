@@ -21,4 +21,5 @@ archive.php       # → Theme archive template
 search.php        # → Theme search results template
 404.php           # → Theme 404 Not Found template
 functions.php     # → Theme functions template
+screenshot.png    # → Theme screenshot
 ```
