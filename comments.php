@@ -24,9 +24,9 @@
   }
   
   /** 
-   * Place this snippet below where ever you want to render the comments
+   * Place the snippet below in the single.php template or desired post template, this code renders the comments area
    * Then remove this snippet from this file because it is intended to be used elsewhere, NOT from within this template   
-   * Uncomment the snippet below when ready to use   
+   * Uncomment the snippet below when ready to use and paste to desired post template area  
   **/
   
   // If comments are open or we have at least one comment, load up the comment template.
