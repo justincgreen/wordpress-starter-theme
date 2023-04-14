@@ -10,7 +10,7 @@ Keep the files you want, add the files you need and delete the files that aren't
 ```sh
 style.css         # → Theme meta information
 index.php         # → Theme main template
-home.php          # → Theme home page template
+front-page.php    # → Theme front page template
 comments.php      # → Theme comments template
 single.php        # → Theme single post template
 page.php          # → Theme page template
