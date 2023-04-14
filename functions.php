@@ -39,4 +39,13 @@
    * @link https://developer.wordpress.org/block-editor/developers/themes/theme-support/#disabling-the-default-block-patterns
   */
   remove_theme_support('core-block-patterns');
+  
+  /**
+   * Add theme stylesheet - may need to tweak this to account for caching
+   *
+  */
+   function theme_enqueue_style() {
+       wp_enqueue_style( 'theme-style', get_stylesheet_uri() ); 
+   }
+   add_action( 'wp_enqueue_scripts', 'theme_enqueue_style' );
 ?>
