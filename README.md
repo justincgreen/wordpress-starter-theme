@@ -22,4 +22,6 @@ search.php        # → Theme search results template
 404.php           # → Theme 404 Not Found template
 functions.php     # → Theme functions template
 screenshot.png    # → Theme screenshot
+header.php        # → Theme header template
+footer.php        # → Theme footer template
 ```

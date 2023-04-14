@@ -1,3 +1,10 @@
+<?php
+/**
+ * The Header template for our theme
+ *
+ * Displays all of the <head> section and everything up until #page
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +13,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php the_title(); ?></title>
 </head>
-  <body>
-    <h1>Index template</h1>
-  </body>
-</html>
+
+<body <?php body_class(); ?>>
+  <?php wp_body_open(); ?>
+  
+  <header>Header</header>
+  
+  <div id="page">
