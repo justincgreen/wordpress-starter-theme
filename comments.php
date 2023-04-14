@@ -2,7 +2,7 @@
   /**
    * Template for displaying comments
    * More info about the comment template: 
-   * https://developer.wordpress.org/themes/template-files-section/partial-and-miscellaneous-template-files/comment-template/
+   * @link https://developer.wordpress.org/themes/template-files-section/partial-and-miscellaneous-template-files/comment-template/
   **/
   
   // Get only the approved comments
