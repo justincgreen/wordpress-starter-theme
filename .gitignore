@@ -1,6 +1,3 @@
-# Ignore git
-.git
-
 # Remove Core WP
 #
 # Note: if you want to stage/commit WP core files
