@@ -40,12 +40,12 @@
   */
   remove_theme_support('core-block-patterns');
   
-  /**
-   * Add theme stylesheet - may need to tweak this to account for caching
+ /**
+   * Add theme stylesheet - tweaked to account for caching
    *
   */
    function theme_enqueue_style() {
-       wp_enqueue_style( 'theme-style', get_stylesheet_uri() ); 
+       wp_enqueue_style( 'theme-style', get_stylesheet_uri(), array(), filemtime(get_stylesheet_directory() . '/style.css'));
    }
    add_action( 'wp_enqueue_scripts', 'theme_enqueue_style' );
 ?>
